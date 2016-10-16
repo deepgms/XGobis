@@ -1,6 +1,9 @@
 # XGobis v 1.0 Public Source Code Release
 
-Ini adalah source code XGobis V1. Silahkan di kembangkan dan jika ingin kolaborasi silahkan dengan senang hati kita buat xgobis versi lain. Kontribusi Anda sangan berarti :)
+Ini adalah source code XGobis V1. Silahkan di kembangkan dan jika ingin kolaborasi silahkan dengan senang hati kita buat xgobis versi lain. Kontribusi Anda sangat berarti :)
+
+
+# License
 
 Licensed under WTFPL -http://sam.zoy.org/wtfpl/COPYING 
 
