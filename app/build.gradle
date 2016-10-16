@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "bdg.catcoder.xgobis"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    provided fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    provided fileTree(dir: 'deps', include: ['*.jar'])
+
+}
